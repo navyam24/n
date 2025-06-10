@@ -1,0 +1,97 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot gpu_driver_behav xil_defaultlib.gpu_driver xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 10 for port 'c2_op_funct' [C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/core.sv:203]
+WARNING: [VRFC 10-3823] variable 'outen' might have multiple concurrent drivers [C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sim_1/new/gpu_die_driver_tb.sv:46]
+WARNING: [VRFC 10-3823] variable 'mem_data' might have multiple concurrent drivers [C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/gpu_controller.sv:53]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/float_const.sv" Line 1. Module float_const has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/float_const.sv" Line 1. Module float_const has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sim_1/new/gpu_die_driver_tb.sv" Line 2. Module gpu_driver has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/gpu_die.sv" Line 4. Module gpu_die has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/global_mem_controller.sv" Line 17. Module global_mem_controller has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/core.sv" Line 3. Module core has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/regfile.sv" Line 4. Module regfile has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/alu.sv" Line 5. Module alu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/chunked_add.sv" Line 3. Module chunked_add_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/chunked_sub.sv" Line 5. Module chunked_sub_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/mul_pipeline_32bit.sv" Line 3. Module mul_pipeline_32bit has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/int_div_regfile.sv" Line 37. Module int_div_regfile_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/fp_alu.sv" Line 3. Module fp_alu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/float_add_pipeline.sv" Line 7. Module float_add_pipeline has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/float_mul_pipeline.sv" Line 4. Module float_mul_pipeline has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/multi_cycle_24bit_2bpc_float.sv" Line 3. Module mul_pipeline_cycle_24bit_2bpc has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/fused_mult_add.sv" Line 8. Module fused_mult_add has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/multi_cycle_24bit_2bpc_float.sv" Line 3. Module mul_pipeline_cycle_24bit_2bpc has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/instruction_decoder.sv" Line 3. Module instruction_decoder has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_imm_handler.sv" Line 3. Module op_imm_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_branch_handler.sv" Line 3. Module op_branch_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_lui_handler.sv" Line 3. Module op_lui_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_auipc_handler.sv" Line 3. Module op_auipc_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_jal_handler.sv" Line 3. Module op_jal_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_jalr_handler.sv" Line 3. Module op_jalr_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/instruction_complete.sv" Line 3. Module instruction_complete has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/gpu_controller.sv" Line 6. Module gpu_controller has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sim_1/new/gpu_die_driver_tb.sv" Line 2. Module gpu_driver has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/gpu_die.sv" Line 4. Module gpu_die has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/global_mem_controller.sv" Line 17. Module global_mem_controller has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/core.sv" Line 3. Module core has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/regfile.sv" Line 4. Module regfile has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/alu.sv" Line 5. Module alu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/chunked_add.sv" Line 3. Module chunked_add_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/chunked_sub.sv" Line 5. Module chunked_sub_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/mul_pipeline_32bit.sv" Line 3. Module mul_pipeline_32bit has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/int_div_regfile.sv" Line 37. Module int_div_regfile_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/fp_alu.sv" Line 3. Module fp_alu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/float_add_pipeline.sv" Line 7. Module float_add_pipeline has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/float_mul_pipeline.sv" Line 4. Module float_mul_pipeline has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/multi_cycle_24bit_2bpc_float.sv" Line 3. Module mul_pipeline_cycle_24bit_2bpc has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/fused_mult_add.sv" Line 8. Module fused_mult_add has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/multi_cycle_24bit_2bpc_float.sv" Line 3. Module mul_pipeline_cycle_24bit_2bpc has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/instruction_decoder.sv" Line 3. Module instruction_decoder has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_imm_handler.sv" Line 3. Module op_imm_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_branch_handler.sv" Line 3. Module op_branch_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_lui_handler.sv" Line 3. Module op_lui_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_auipc_handler.sv" Line 3. Module op_auipc_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_jal_handler.sv" Line 3. Module op_jal_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/op_jalr_handler.sv" Line 3. Module op_jalr_handler has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/instruction_complete.sv" Line 3. Module instruction_complete has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sources_1/new/gpu_controller.sv" Line 6. Module gpu_controller has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.op_const_pkg
+Compiling package xil_defaultlib.const_pkg
+Compiling package xil_defaultlib.float_const
+Compiling module xil_defaultlib.global_mem_controller
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.chunked_add_default
+Compiling module xil_defaultlib.chunked_sub_default
+Compiling module xil_defaultlib.mul_pipeline_32bit
+Compiling module xil_defaultlib.int_div_regfile_default
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.float_add_pipeline
+Compiling module xil_defaultlib.mul_pipeline_cycle_24bit_2bpc
+Compiling module xil_defaultlib.float_mul_pipeline
+Compiling module xil_defaultlib.fp_alu
+Compiling module xil_defaultlib.fused_mult_add
+Compiling module xil_defaultlib.op_imm_handler
+Compiling module xil_defaultlib.op_branch_handler
+Compiling module xil_defaultlib.op_lui_handler
+Compiling module xil_defaultlib.op_auipc_handler
+Compiling module xil_defaultlib.op_jal_handler
+Compiling module xil_defaultlib.op_jalr_handler
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.instruction_complete
+Compiling module xil_defaultlib.core
+Compiling module xil_defaultlib.gpu_controller
+Compiling module xil_defaultlib.gpu_die
+Compiling module xil_defaultlib.gpu_driver
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot gpu_driver_behav

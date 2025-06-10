@@ -1,0 +1,464 @@
+Time resolution is 1 ps
+op_imm unhandled funct3 x
+unhandled opcode
+ERROR: got to default state state=x
+unhandled opcode
+unhandled opcode
+unhandled opcode
+i =           1, line = STATE 1
+
+i =           2, line = DATA 0
+
+i =           3, line = DATA 18
+
+i =           4, line = STATE 0
+
+i =           5, line = DATA 40866666
+
+i =           6, line = DATA 40600000
+
+i =           7, line = DATA c101999a
+
+i =           8, line = DATA 41200000
+
+i =           9, line = DATA 3e99999a
+
+i =          10, line = DATA bdcccccd
+
+i =          11, line = STATE 1
+
+i =          12, line = DATA 18
+
+i =          13, line = DATA 30
+
+i =          14, line = STATE 0
+
+i =          15, line = DATA 40551eb8
+
+i =          16, line = DATA 3f9d70a4
+
+i =          17, line = DATA 40a33333
+
+i =          18, line = DATA bf19999a
+
+i =          19, line = DATA 3dcccccd
+
+i =          20, line = DATA 3e4ccccd
+
+i =          21, line = DATA 3e99999a
+
+i =          22, line = DATA 3ecccccd
+
+i =          23, line = DATA bf800000
+
+i =          24, line = DATA c1700000
+
+i =          25, line = DATA bf4ccccd
+
+i =          26, line = DATA 41400000
+
+i =          27, line = STATE 1
+
+i =          28, line = DATA e8
+
+i =          29, line = DATA 174
+
+i =          30, line = STATE 0
+
+i =          31, line = DATA 537
+
+i =          32, line = DATA 250513
+
+i =          33, line = DATA 5b7
+
+i =          34, line = DATA 358593
+
+i =          35, line = DATA 637
+
+i =          36, line = DATA 460613
+
+i =          37, line = DATA 6b7
+
+i =          38, line = DATA 68693
+
+i =          39, line = DATA 737
+
+i =          40, line = DATA 1870713
+
+i =          41, line = DATA 7b7
+
+i =          42, line = DATA 4878793
+
+i =          43, line = DATA e800113
+
+i =          44, line = DATA 8000ef
+
+i =          45, line = DATA 7b
+
+i =          46, line = DATA fc010113
+
+i =          47, line = DATA 2112e23
+
+i =          48, line = DATA 2812c23
+
+i =          49, line = DATA 4010413
+
+i =          50, line = DATA fea42a23
+
+i =          51, line = DATA feb42823
+
+i =          52, line = DATA fec42623
+
+i =          53, line = DATA fed42423
+
+i =          54, line = DATA fee42023
+
+i =          55, line = DATA fcf42c23
+
+i =          56, line = DATA fc042a23
+
+i =          57, line = DATA 40006f
+
+i =          58, line = DATA fd442503
+
+i =          59, line = DATA ff442583
+
+i =          60, line = DATA eb57863
+
+i =          61, line = DATA 40006f
+
+i =          62, line = DATA fc042823
+
+i =          63, line = DATA 40006f
+
+i =          64, line = DATA fd042503
+
+i =          65, line = DATA fec42583
+
+i =          66, line = DATA cb57263
+
+i =          67, line = DATA 40006f
+
+i =          68, line = DATA fc042623
+
+i =          69, line = DATA fc042423
+
+i =          70, line = DATA 40006f
+
+i =          71, line = DATA fc842503
+
+i =          72, line = DATA ff042583
+
+i =          73, line = DATA 6b57663
+
+i =          74, line = DATA 40006f
+
+i =          75, line = DATA fe842503
+
+i =          76, line = DATA fd442583
+
+i =          77, line = DATA ff042603
+
+i =          78, line = DATA 2c585b3
+
+i =          79, line = DATA fc842603
+
+i =          80, line = DATA c585b3
+
+i =          81, line = DATA 259593
+
+i =          82, line = DATA b50533
+
+i =          83, line = DATA 52503
+
+i =          84, line = DATA fe042583
+
+i =          85, line = DATA fec42683
+
+i =          86, line = DATA 2d60633
+
+i =          87, line = DATA fd042683
+
+i =          88, line = DATA d60633
+
+i =          89, line = DATA 261613
+
+i =          90, line = DATA c585b3
+
+i =          91, line = DATA 5a583
+
+i =          92, line = DATA fcc42603
+
+i =          93, line = DATA 60b50543
+
+i =          94, line = DATA fca42623
+
+i =          95, line = DATA 40006f
+
+i =          96, line = DATA fc842503
+
+i =          97, line = DATA 150513
+
+i =          98, line = DATA fca42423
+
+i =          99, line = DATA f91ff06f
+
+i =         100, line = DATA fcc42503
+
+i =         101, line = DATA fd842583
+
+i =         102, line = DATA fd442603
+
+i =         103, line = DATA fec42683
+
+i =         104, line = DATA 2d60633
+
+i =         105, line = DATA fd042683
+
+i =         106, line = DATA d60633
+
+i =         107, line = DATA 261613
+
+i =         108, line = DATA c585b3
+
+i =         109, line = DATA a5a023
+
+i =         110, line = DATA 40006f
+
+i =         111, line = DATA fd042503
+
+i =         112, line = DATA 150513
+
+i =         113, line = DATA fca42823
+
+i =         114, line = DATA f39ff06f
+
+i =         115, line = DATA 40006f
+
+i =         116, line = DATA fd442503
+
+i =         117, line = DATA 150513
+
+i =         118, line = DATA fca42a23
+
+i =         119, line = DATA f0dff06f
+
+i =         120, line = DATA 3c12083
+
+i =         121, line = DATA 3812403
+
+i =         122, line = DATA 4010113
+
+i =         123, line = DATA 8067
+
+i =         124, line = STATE 3
+
+i =         125, line = DATA e8
+
+unhandled opcode
+unhandled opcode
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+MADD
+i =         126, line = STATE 0
+
+i =         127, line = STATE 2
+
+i =         128, line = DATA 48
+
+i =         129, line = DATA 20
+
+i =         130, line = STATE 0
+
+i =         131, line = READ_DATA
+
+i =         132, line = READ_DATA
+
+i =         133, line = READ_DATA
+
+i =         134, line = READ_DATA
+
+i =         135, line = READ_DATA
+
+i =         136, line = READ_DATA
+
+i =         137, line = READ_DATA
+
+i =         138, line = READ_DATA
+
+done reading
+Filled outmem entries:
+outmem[0] = 40861e3f, Float: 4.191192
+outmem[1] = 4207b93f, Float: 33.930904
+outmem[2] = 4087623f, Float: 4.230743
+outmem[3] = c20623ee, Float: -33.535088
+outmem[4] = 410426c1, Float: 8.259461
+outmem[5] = 4005a48a, Float: 2.088168
+outmem[6] = 41042665, Float: 8.259374
+done printing
+$finish called at time : 87650 ns : File "C:/Users/Dell/Desktop/m5/MILESTONE_5/project_5/project_5.srcs/sim_1/new/gpu_die_driver_tb.sv" Line 66

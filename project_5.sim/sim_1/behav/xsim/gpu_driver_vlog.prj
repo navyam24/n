@@ -1,0 +1,35 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../project_5.srcs/sources_1/new/const.sv" \
+"../../../../project_5.srcs/sources_1/new/op_const.sv" \
+"../../../../project_5.srcs/sources_1/new/alu.sv" \
+"../../../../project_5.srcs/sources_1/new/chunked_add.sv" \
+"../../../../project_5.srcs/sources_1/new/chunked_sub.sv" \
+"../../../../project_5.srcs/sources_1/new/core.sv" \
+"../../../../project_5.srcs/sources_1/new/float_const.sv" \
+"../../../../project_5.srcs/sources_1/new/float_add_pipeline.sv" \
+"../../../../project_5.srcs/sources_1/new/float_mul_pipeline.sv" \
+"../../../../project_5.srcs/sources_1/new/fp_alu.sv" \
+"../../../../project_5.srcs/sources_1/new/fused_mult_add.sv" \
+"../../../../project_5.srcs/sources_1/new/global_mem_controller.sv" \
+"../../../../project_5.srcs/sources_1/new/gpu_controller.sv" \
+"../../../../project_5.srcs/sources_1/new/gpu_die.sv" \
+"../../../../project_5.srcs/sources_1/new/instruction_complete.sv" \
+"../../../../project_5.srcs/sources_1/new/instruction_decoder.sv" \
+"../../../../project_5.srcs/sources_1/new/int_div_regfile.sv" \
+"../../../../project_5.srcs/sources_1/new/mul_pipeline_32bit.sv" \
+"../../../../project_5.srcs/sources_1/new/multi_cycle_24bit_2bpc_float.sv" \
+"../../../../project_5.srcs/sources_1/new/op_auipc_handler.sv" \
+"../../../../project_5.srcs/sources_1/new/op_branch_handler.sv" \
+"../../../../project_5.srcs/sources_1/new/op_imm_handler.sv" \
+"../../../../project_5.srcs/sources_1/new/op_jal_handler.sv" \
+"../../../../project_5.srcs/sources_1/new/op_jalr_handler.sv" \
+"../../../../project_5.srcs/sources_1/new/op_lui_handler.sv" \
+"../../../../project_5.srcs/sources_1/new/regfile.sv" \
+"../../../../project_5.srcs/sim_1/new/gpu_die_driver_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
